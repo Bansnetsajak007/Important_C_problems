@@ -2,7 +2,7 @@
 
 int sumOfDigits(int number) {
     if (number == 0) {
-        return 0;  // Base case: No more digits remaining
+        return 0;  
     }
 
     int lastDigit = number % 10;  // Get the last digit

@@ -1,3 +1,5 @@
+//perferct example of nested structure
+
 #include <stdio.h>
 
 struct Date {
