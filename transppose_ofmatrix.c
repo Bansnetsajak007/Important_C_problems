@@ -22,7 +22,7 @@ int main(){
         }
     }
 
-
+    //original matrix
     for ( i = 0; i < 3; i++){
         for (j = 0; j < 2; j++){
             printf("matrix[%d][%d]:%d  ", i,j,matrix[i][j]);

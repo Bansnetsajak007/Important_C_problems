@@ -3,17 +3,19 @@
 #include <stdio.h>
 
 int isPrime(int number) {
-    if (number <= 1) {
-        return 0;  // Not prime
-    }
-
-    for (int i = 2; i * i <= number; i++) {
-        if (number % i == 0) {
-            return 0;  // Not prime
+    int factor = 0;
+    for(int i=1;i<=number;i++){
+        if(number % i ==0){
+            factor ++;
         }
     }
 
-    return 1;  // Prime
+    if (factor == 2) {
+        return 1;
+    } else {
+        return 0;
+    }
+
 }
 
 

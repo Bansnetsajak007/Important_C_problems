@@ -31,4 +31,6 @@ int main(){
     scanf("%d", &x);
 
     series_calculation(x,n);
+
+    return 0;
 }
